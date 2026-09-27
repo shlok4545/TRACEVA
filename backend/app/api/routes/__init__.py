@@ -1,0 +1,10 @@
+from app.api.routes.auth import router as auth_router
+from app.api.routes.facilities import router as facilities_router
+from app.api.routes.health import router as health_router
+from app.api.routes.incidents import router as incidents_router
+from app.api.routes.passports import router as passports_router
+from app.api.routes.pickups import router as pickups_router
+from app.api.routes.reports import router as reports_router
+from app.api.routes.treatment import router as treatment_router
+from app.api.routes.users import router as users_router
+from app.api.routes.wards import router as wards_router
