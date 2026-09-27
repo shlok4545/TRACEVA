@@ -3,14 +3,20 @@ frontend/node_modules/
 frontend/dist/
 frontend/.vite/
 frontend/.env
+frontend/*.tsbuildinfo
 
 # Python / backend
 backend/.venv/
 backend/__pycache__/
+backend/app/__pycache__/
+backend/tests/__pycache__/
 backend/.env
 backend/*.db
+backend/app/*.db
 backend/app/**/*.pyc
 backend/app/**/__pycache__/
+backend/tests/**/*.pyc
+backend/tests/**/__pycache__/
 
 # OS / editor
 .DS_Store
